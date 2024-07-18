@@ -73,6 +73,8 @@ const page = () => {
         required
         value = {title}
         onChange = {(e)=>{
+           console.log(e)
+
           settitle(e.target.value)
            console.log(title)}
 
